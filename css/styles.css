@@ -10969,4 +10969,61 @@ section.resume-section .resume-section-content {
     padding-top: 5rem;
     padding-bottom: 5rem;
   }
+<<<<<<< Updated upstream
 }
+=======
+}
+
+
+
+
+/* my edit */
+img{
+  border-radius: 10px;
+}
+
+video{
+  border-radius: 10px;
+}
+
+
+@media (max-width: 768px) {
+  .row {
+      display: flex;
+      flex-direction: column; 
+      align-items: center;
+      gap: 5px; 
+  }
+
+  .col-md-4 {
+      width: 100%; /* Full width */
+      display: flex;
+      justify-content: center;
+  }
+
+  img {
+      width: 320px;
+      height: 240px;
+      border-radius: 10px; 
+      object-fit: cover;
+  }
+  
+}
+
+
+
+footer p{
+  text-align: center;
+  background: var(--bs-orange);
+  font-size: 14px;
+  color: var(--bs-white);
+  margin: 0px;
+  padding: 0px;
+  
+}
+
+
+
+
+
+>>>>>>> Stashed changes
